@@ -1,6 +1,6 @@
 #ifndef CHEF_H
 #define CHEF_H
-#include<iostream>
+#include <string>
 using namespace std;
 
 
@@ -16,7 +16,7 @@ protected:
 };
 
 
-class ItalianChef: Chef
+class ItalianChef: public Chef
 {
 public:
     ItalianChef(string nimi, int a, int b);

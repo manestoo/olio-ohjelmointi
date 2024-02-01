@@ -1,4 +1,3 @@
-#include <iostream>
 #include <chef.h>
 
 using namespace std;

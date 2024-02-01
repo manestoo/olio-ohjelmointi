@@ -1,4 +1,6 @@
 #include "chef.h"
+#include <iostream>
+#include <string>
 
 Chef::Chef(string nimi){
     name = nimi;
